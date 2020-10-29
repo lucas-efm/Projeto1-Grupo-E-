@@ -1,19 +1,24 @@
-# ===================================+ PROTOTIVO V1 CC +======================================== #
+# =====================================+ PROTOTIVO V1 +========================================= #
 
 # ========= GABRIELA ALVES == GABRIEL PORTELA == LUCAS MENDES == LUCIA NEGREIROS =============== #
 
-# ================================= IMPORTS E DECLARACOES ====================================== #
-from datetime import date, datetime  # Para calculo de idade e momento de realizacao dos posts
-import difflib  # Para pesquisa por proximidade
 
-usernames, datas_nascimento, senhas, emails, nomes, cidades = [], [], [], [], [], []
-opcao, opcao_log = '', ''
+# ===================================== MODO DE TESTE ===========================================#
 
 test = False  # se TRUE as contas serao criadas autmaticamente com
 # valores padroes (apenas para teste de funcoes)
 # SENHA » 123456
 test_livros = False  # se TRUE os livros serao adiicionados autmaticamente
 # com valores padroes (apenas para teste de funcoes)
+
+# ================================= IMPORTS E DECLARACOES ====================================== #
+
+from datetime import date, datetime  # Para calculo de idade e momento de realizacao dos posts
+import difflib  # Para pesquisa por proximidade
+
+usernames, datas_nascimento, senhas, emails, nomes, cidades = [], [], [], [], [], []
+opcao, opcao_log = '', ''
+
 
 titulos, editoras, autores, anos, generos, livros_por_usuario, chats, posts = [], [], [], [], [], [], [], []
 finalizar = ''
